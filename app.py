@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    words = "Hello World"
+    words = "Hello World 2"
     return render_template("index.html", words=words)
 
 
